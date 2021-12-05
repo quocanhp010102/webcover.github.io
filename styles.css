@@ -834,10 +834,11 @@ li.menu-nav{
         padding-top: 60%;
      }
      .sliderr.slider1{
-        background-position: right;
+        background-position: right top bottom;
         background: url(./images/home-bg-1.jpg);
-        background-size: cover;
+        background-size: 400% 200%;
         background-repeat: no-repeat;
+        
         
     }
     .sliderr.slider2{
@@ -846,7 +847,7 @@ li.menu-nav{
     }
     .sliderr.slider3{
         background: url(./images/home-bg-3.jpg);
-        background-size: cover;
+        background-size: 400% 200%;
     }
     .slider_ndc{
         width: 90%;
