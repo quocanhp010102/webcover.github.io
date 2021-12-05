@@ -135,6 +135,116 @@ else if(screen.width<=375){
 
 }
 
+// content5
+if(screen.width>=1024){
+  swipee[2].classList.add('mySwiper3')
+  var swiper3 = new Swiper(".mySwiper3", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+}
+else if(screen.width<=768&&screen.width>375){
+swipee[2].classList.add('mySwiper31')
+var swiper31 = new Swiper(".mySwiper31", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+}
+else if(screen.width<=375){
+swipee[2].classList.add('mySwiper311')
+var swiper311 = new Swiper(".mySwiper311", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+ 
+});
+
+}
+
+
+
+//content7
+if(screen.width>=1024){
+  swipee[3].classList.add('mySwiper4')
+  var swiper4 = new Swiper(".mySwiper4", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+}
+else if(screen.width<=768&&screen.width>375){
+swipee[3].classList.add('mySwiper41')
+var swiper41 = new Swiper(".mySwiper41", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+}
+else if(screen.width<=375){
+swipee[3].classList.add('mySwiper411')
+var swiper411 = new Swiper(".mySwiper411", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+ 
+});
+
+}
+
 
 
 
